@@ -1,0 +1,44 @@
+#--------------------------------------------------
+## File Description: AStyle format files
+## Author: Falei LUO   (falei.luo@gmail.com)
+## Date: 20180612
+#--------------------------------------------------
+
+# --style=linux
+--style=1tbs
+--add-brackets
+--add-one-line-brackets
+
+--indent=spaces
+--convert-tabs
+
+# --break-blocks
+# --delete-empty-lines
+--pad-oper
+--close-templates
+
+# --pad-first-paren-out
+# --pad-paren-in
+--unpad-paren
+--pad-header
+
+--align-pointer=name
+# --align-pointer=middle
+# --align-pointer=type
+
+# --align-reference=none
+# --align-reference=type
+# --align-reference=middle
+--align-reference=name
+
+--mode=c
+--max-code-length=120
+--min-conditional-indent=0
+--break-after-logical
+
+# --lineend=linux
+--lineend=windows
+
+# not backup current version of files
+--suffix=none
+
